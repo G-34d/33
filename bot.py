@@ -21,7 +21,9 @@ import os
 BOT_TOKEN = os.getenv("TOKENbotss")
 ADMIN_ID       = 7726643439
 DB_NAME        = "series.db"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.getenv("alkeymyapl")
+
+#OPENAI_API_KEY = "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"
 
 # ==================== حالات المحادثة ====================
 (
